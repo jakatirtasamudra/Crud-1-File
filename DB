@@ -1,0 +1,6 @@
+CREATE TABLE `Siswa` (
+  `Nim` int(11) NOT NULL,
+  `Nama` varchar(155) DEFAULT NULL,
+  `Jurusan` varchar(155) DEFAULT NULL,
+  PRIMARY KEY (`Nim`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
